@@ -1,0 +1,21 @@
+[projects]
+project1_name = Prod
+project2_name = UAT
+project1_path = /tmp/trace_gateway_Prod
+project2_path = /tmp/trace_gateway_UAT
+
+[ssh]
+enabled = true
+host = 192.168.1.14
+port = 22
+username = wizcom
+password = YOUR_PASSWORD_HERE
+
+[compare]
+config_folder = config
+lib_folder = lib
+
+[output]
+logs_dir = logs
+lib_changes_dir = lib_changes
+activity_log_prefix = activity

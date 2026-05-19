@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+**/.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets and local config
+config.ini
+**/config.ini
+
+# Generated comparison output
+logs/
+**/logs/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
